@@ -22,7 +22,23 @@ create Java packages:
 - To store utility like Excel Utility, Config Utility, Report Utility, Database Utility, Screenshot Utility, Driver, CucumberRunnerTest etc. We can also keep util in src/main/java if dev and test code is in same framework.
 
 ## Step Definitions Directory,
-- To store cucumber step definitions 
+- To store cucumber step definitions
+
+Create Utility packages: 
+> Driver(Singleton Design Pattern), 
+> BrowserUtils, 
+> ConfigurationReader
+
+## Driver Class benefits,
+- We are writing too many lines just to be able to instantiate our WebDriver
+- We are having hard time to pass the SAME 'driver' instance around in our project.When we are using any utilty method, currently we have to pass "WebDriver driver" as argument in each utility method.
+- Singleton Design Pattern guarantuees to return same object everytime we want to use the object.
+
+
+## BrowserUtils Class benefits,
+- We need that for basic and easy to understandable code
+- Also include static wait
+
 
 ## ConfigurationProperties benefits,
 - to avoid hard coding, 
