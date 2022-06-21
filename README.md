@@ -2,7 +2,8 @@
 
 # Cucumber Framework for DemoBlaze Application
 ## _Framework Format_
-![Test Image](https://github.com/YasinDeger48/Adidas_Cucumber_Framework/blob/master/cucumber.png=25x25)
+
+<img src="https://github.com/YasinDeger48/Adidas_Cucumber_Framework/blob/master/cucumber.png" width="100" height="100">
 
 
 ConfigurationProperties benefits,
