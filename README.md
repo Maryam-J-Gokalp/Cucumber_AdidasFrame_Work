@@ -6,7 +6,7 @@
 <img src="https://github.com/YasinDeger48/Adidas_Cucumber_Framework/blob/master/cucumber.png" width="100" height="100">
 
 
-##ConfigurationProperties benefits,
+## ConfigurationProperties benefits,
 - to avoid hard coding, 
 - externilize the test data and avoid effecting the project, 
 - centerlized location, 
