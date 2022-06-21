@@ -15,8 +15,8 @@ create resources directory same level with java directory the purpose is to hold
 
 
 create Java packages: 
-> runners
-> pages(POM)
-> utilities
+> runners, 
+> pages(POM), 
+> utilities, 
 > step_definitions
 
