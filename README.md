@@ -2,7 +2,7 @@
 
 # Cucumber Framework for DemoBlaze Application
 ## _Framework Format_
-![Test Image 6](master/cucumber.png)
+![Test Image](https://github.com/YasinDeger48/Adidas_Cucumber_Framework/blob/master/cucumber.png)
 
 
 ConfigurationProperties benefits,
