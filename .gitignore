@@ -1,0 +1,5 @@
+.idea
+target
+configuration.properties
+.iml
+/resources/features
