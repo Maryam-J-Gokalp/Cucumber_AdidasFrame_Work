@@ -8,7 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 "pretty",
-                "html:target/cucumber-report.html"
+                "html:target/cucumberReports/cucumber-report.html",
+                "json:target/cucumberReports/cucumber-report.json",
+                "rerun:target/cucumberReports/cucumber.txt"
         },
         features = "src/test/resources/features",
         glue = "demo/blaze/stepDefinitions",
