@@ -31,6 +31,7 @@ public class TestStepDefinitions {
         alert.accept();
 
 
+
     }
     @When("buyer clicks on {string} link")
     public void buyer_clicks_on_link(String string) {

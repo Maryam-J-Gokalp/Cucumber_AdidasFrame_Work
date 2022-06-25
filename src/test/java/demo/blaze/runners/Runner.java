@@ -8,14 +8,14 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 "pretty",
-                "html:target/cucumberReports/cucumber-report.html",
-                "json:target/cucumberReports/cucumber-report.json",
-                "rerun:target/cucumberReports/cucumber.txt"
+                "html:target/cucumber-report.html",
+                "json:target/cucumber-report.json",
+                "rerun:target/cucumber.txt"
         },
         features = "src/test/resources/features",
         glue = "demo/blaze/stepDefinitions",
         dryRun = false,
-        tags = "@wip"
+        tags = ""
 
 )
 
